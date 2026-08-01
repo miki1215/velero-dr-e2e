@@ -1,0 +1,12 @@
+# kubeconfigs / cloud creds
+kubeconfig
+*.kubeconfig
+.kube/
+*.pem
+*.key
+credentials
+
+# local scratch
+*.log
+tmp/
+.DS_Store
