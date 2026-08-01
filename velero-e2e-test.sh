@@ -378,6 +378,10 @@ spec:
   volumeSnapshotLocations:
   - primary
   snapshotMoveData: false
+  # PVC data is captured via CSI VolumeSnapshots (this test waits on
+  # VolumeSnapshot/VolumeSnapshotContent readyToUse below). Keep fs-backup OFF:
+  # defaultVolumesToFsBackup=true only works when the Velero node-agent
+  # (restic/kopia) is deployed; without it, backups would silently skip PVC data.
   defaultVolumesToFsBackup: false
   ttl: 2h0m0s
 EOF
