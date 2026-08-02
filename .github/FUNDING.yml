@@ -1,0 +1,5 @@
+# GitHub "Sponsor" button config.
+# Docs: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+ko_fi: zsoltmiklos                 # <-- set your real Ko-fi username (or remove this line)
+# github: [miki1215]          # uncomment once you enable GitHub Sponsors
+custom: ["https://hnatik.dev"]
